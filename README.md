@@ -1,11 +1,12 @@
-o# Christmas Cracker App
+## Christmas Cracker App
 
 Built using React Native, a simple fix to solve a covid Christmas Crakcer crisis. 
 
 Social distancing has ruined the traditonal cracker pull. I made this App so you don't miss out on the terrible jokes this year.
+This is a quick idea to learn how to build a basic react native app using an API to render a random joke onto the page.
 
 
-Press the button to get a new joke.
+Just press the button to get a new joke.
 
 
 ## Get Started
@@ -26,5 +27,4 @@ expo start
 ```
 
 Metro bundler will now start and you can run the app on Andriod, iOS or via the browser.
-
 
