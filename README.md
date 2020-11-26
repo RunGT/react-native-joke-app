@@ -13,8 +13,7 @@ Press the button to get a new joke.
 After creating the basic idea of the app I decided I wanted to add a bit of design to it.
 This is what the app will look like with it's connections.
 
-<a href="https://ibb.co/dBnLjGh"><img src="https://i.ibb.co/5TqnGB7/Christmas-Joke-App.gif" alt="Christmas-Joke-App" border="0"></a>
-
+<img src="https://i.ibb.co/5TqnGB7/Christmas-Joke-App.gif" width="40%">
 
 ## Get Started
 
