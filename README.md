@@ -3,14 +3,22 @@
 A simple fix to solve a covid Christmas Crakcer crisis. 
 
 Social distancing has ruined the traditonal cracker. I made this App so you don't miss out on the terrible jokes this year.
+
 This is a quick idea to learn how to build a basic react native app. I use an API to render a random joke onto the page.
 
 Press the button to get a new joke.
 
+## Wireframe
+
+After creating the basic idea of the app I decided I wanted to add a bit of design to it.
+This is what the app will look like with it's connections.
+
+<a href="https://ibb.co/dBnLjGh"><img src="https://i.ibb.co/5TqnGB7/Christmas-Joke-App.gif" alt="Christmas-Joke-App" border="0"></a>
+
 
 ## Get Started
 
-If do not have expo install it. 
+If you do not have expo install it. 
 
 In terminal:
 ```
