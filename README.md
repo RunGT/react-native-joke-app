@@ -26,7 +26,13 @@ npm install -g expo-cli
 
 This bypasses the need to install react-native as expo will cover the installation of React-Native.
 
-To start metro bundler: Head to the root of the app through terminal and type:
+Install dependencies:
+
+```
+npm install
+```
+
+To start metro bundler, head to the root of the app through terminal and type:
 ```
 expo start
 
