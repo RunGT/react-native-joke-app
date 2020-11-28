@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect, useState } from "react";
-import { Image, StyleSheet, Text, TouchableOpacity, View, Button } from "react-native";
+import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function App() {
   const [randomDadJoke, setRandomDadJoke] = useState("");
@@ -34,8 +34,14 @@ export default function App() {
           source={require("./assets/images/santa_visit_loux.png")}
         />
       </TouchableOpacity>
-      <Button style={styles.purpleButton} title='Tell me another'/>
-      
+      <TouchableOpacity
+        style={styles.purpleButton}
+        onPress={() => {
+          getDadJoke();
+        }}
+      >
+        <Text style={styles.purpleButtonText}>Tell me another</Text>
+      </TouchableOpacity>
 
       <StatusBar style="auto" />
     </View>
@@ -50,14 +56,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
-  purpleButton:{
-    
-
+  purpleButton: {
+    backgroundColor: "#6C63FF",
+    borderRadius: 8,
   },
 
-  jokeText: {
-    backgroundColor: "#E7F2F8",
-    borderRadius: 20,
+  purpleButtonText: {
+    color: "white",
   },
 
   santaXmasTree: {
