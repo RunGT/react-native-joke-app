@@ -65,6 +65,14 @@ const styles = StyleSheet.create({
     color: "white",
   },
 
+  jokeText: {
+    
+    backgroundColor: "yellow",
+    textAlign: "center",
+    // padding: 3,
+
+  },
+
   santaXmasTree: {
     height: 210,
     width: 330,
