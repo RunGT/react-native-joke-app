@@ -40,3 +40,7 @@ expo start
 
 Metro bundler will now start and you can run the app on Andriod, iOS or via the browser.
 
+## Useful resources 
+
+- [CSS to React Native](https://csstox.surge.sh/)
+- [How to add custom fonts to React Native using Expo](https://github.com/expo/google-fonts)
