@@ -44,3 +44,4 @@ Metro bundler will now start and you can run the app on Andriod, iOS or via the 
 
 - [CSS to React Native](https://csstox.surge.sh/)
 - [How to add custom fonts to React Native using Expo](https://github.com/expo/google-fonts)
+- [React Native Layout Props - Documentation](https://reactnative.dev/docs/layout-props)
