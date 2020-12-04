@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 8,
     borderBottomLeftRadius: 8,
     fontFamily: "GFSNeohellenic_400Regular",
-    fontSize: "3rem",
+    fontSize: 24,
   },
 
   santaXmasTree: {
