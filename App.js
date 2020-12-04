@@ -23,12 +23,12 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.jokeText}>{randomDadJoke}</Text>
       <TouchableOpacity
         onPress={() => {
           getDadJoke();
         }}
       >
-        <Text style={styles.jokeText}>{randomDadJoke}</Text>
         <Image
           style={styles.santaXmasTree}
           source={require("./assets/images/santa_visit_loux.png")}
@@ -66,11 +66,19 @@ const styles = StyleSheet.create({
   },
 
   jokeText: {
-    
-    backgroundColor: "yellow",
     textAlign: "center",
-    // padding: 3,
-
+    width: "80%",
+    padding: 10,
+    position: "absolute",
+    left: "11.73%",
+    right: "11.73%",
+    top: "12.29%",
+    bottom: "70.16%",
+    backgroundColor: "#FF6584",
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    borderBottomRightRadius: 8,
+    borderBottomLeftRadius: 8,
   },
 
   santaXmasTree: {
